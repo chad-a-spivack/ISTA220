@@ -1,0 +1,65 @@
+# C# Chapter 2 HW
+## Chad Spivack
+## January 13, 2021
+
+### What is a local variable?
+
+Variables that exist only in a method or small segment of code
+
+### What is a statement?
+
+A command that performs an action.
+
+### What is an identifier?
+
+names that you use to identify the elements in your programs i.e. classes.
+
+### What is a keyword?
+
+identifiers used in the C# language that the user cannot use for example else, do, as.
+
+### What is a variable?
+
+Name location in memory that may contain a value.
+
+### How do you declare a variable?  How do you assign a value to a variable?  Can you have a variable that does not have a value?  Can you declare and initialize a variable in a single statement?
+
+You use a declaration statement.  You use the "=" operand or assignment operator.  Yes, you can have a variable without a value.
+Yes.
+
+### What does Visual Studio do when you open a project (a .csproj file) without opening the solution ( a .sln file)? WHy might this be a problem?
+
+It automatically creates a .sln file.  You can accidently create multiple solutions for a project.
+
+### How are arithmetic operators and variable types related?
+
+You can use operators with any char, int, long, float, double, and decimal.  With the exception of "+", you can't use operators with string or bool. Operator depends on type.
+
+### How do you turn an integer into a string?
+
+Use the ToString method.
+
+### How do you turn a string into an integer?
+
+Use the parse method.
+
+### What is the difference between precendece and associativity? Give an example where this makes a difference.
+
+Precedence states that multiplication and division go first.  Associativity says to go from left to right when the operators have the same precedence.
+2+4/3*5.  4/3 would go first, then multiplied by 5, and lastly add 2.
+
+### What is the definite assignment rule?
+
+A variable cannot be read until it is assigned a value.  Once it is assigned a value, it is considered to be *initialized*
+
+### How are the prefix and postfix increment and decrement operators evaluated differently?
+
+Prefix is incremented the first time. Postfix is evaluated the second time.
+
+### What is string interpolation?
+
+Direct computer to evaluate a variable or an expression in a string.
+
+### What does the var keyword do?
+
+Determines the most appropriate data type for a new variable.

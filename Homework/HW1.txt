@@ -1,0 +1,60 @@
+# C# Chapter 1 HW
+
+## 1. What is a console app?
+
+An application that runs in a command prom pt window.
+
+## 2. List two differences between .NET Framework and .NET Core.  Note that in this class, we will be writing C# applications in .NET Framework and ASP.NET applications in NET core.
+
+	1. .NET Core Apps can run on other operating systems.
+	2. .NET Framework provides a wider range of features.
+	
+## 3. What does Main() do in a console application?
+
+It is the starting point for your application when you run it, as it is the main method in the program class.
+
+## 4. Descrube these three files: TextHello.sln, TextHello.csproj, and AssemblyInfo.csproj
+
+TextHello.sln is the solution file which contain many different projects. TextHello.csproj is the project file which is where youj would find the source code.
+AssemblyInfo.csproj is where you would add attributes like author name and date written to program.
+
+## 5. What is the purpose of a *namespace*?
+
+They create a container for classes to avoid large programs from crashing due to having multiple classes with the same name etc.
+
+## 6. Describe specifically whatg using statements do.
+
+It allows you to use a namespace in your program without having to specifically reference with every method etc.
+
+## 7. What is the entry point for a console app? What is an entry point for a UWP App?
+
+The command prompt window is the entry point for a console app where as a GUI is the entry point for a UWP App.
+
+## 8. What is an assembly?
+
+A compilation of classes usually ending in .dll.  It used to split up all of the classes that the .NET Framework provides based on what type of application is being written.
+
+## 9. How many different versions of the WriteLine() method does the Console class contain?
+
+19
+
+## 10. What is the relationship between an assembly and a namespace?
+
+There is no relationship between an assembly between an assembly and a namespace.
+
+## 11. What is a graphical app?
+
+An Application you can run on any device that uses windows such as a tablet or a cell phone.  It uses a UI so that theuser can interact with the application.
+
+## 12. What does build do?
+
+Creates the solution and allows you to run the program.
+
+## 13. What is bytecode?  What is Microsoft CIL?  Do you think that CIL is bytecode? Why or why not?
+
+Bytecode is developed from source code to be used on a VM. CIL is a binary instruction set.  Yes CIL is bytecode because it simplifies code to be run on a VM.
+
+## 14.  What does debug do?
+
+Spots problems that will cause your program to crash. 
+	

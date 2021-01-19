@@ -1,0 +1,13 @@
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.exe
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.deps.json
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.runtimeconfig.json
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.runtimeconfig.dev.json
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.dll
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\bin\Debug\netcoreapp3.1\Quiz1.pdb
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.csprojAssemblyReference.cache
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.AssemblyInfoInputs.cache
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.AssemblyInfo.cs
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.csproj.CoreCompileInputs.cache
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.dll
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.pdb
+C:\Users\Chad Spivack\MSSA2021\ISTA220\Exercises\Quiz1\obj\Debug\netcoreapp3.1\Quiz1.genruntimeconfig.cache
