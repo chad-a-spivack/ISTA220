@@ -1,0 +1,58 @@
+# C# Chapter 4 Homework
+## Chad Spivack
+## January 21, 2021
+
+### 1. What are all the possible values of Boolean expressions?
+
+True (==) and False (!=)
+
+### 2. List the equality operators.  List the relational operators.  List the logical operators.  How are they the same? How are they different?
+
+Equality: ==, !=
+Relational: <, <=, >, =>
+Logical: !, &&, ||
+
+They all evaluate to true or false in some fashion.  Equality is pretty black and white.  Relational gives you a wider range of answers.  Multiple things have to be true with logical.
+
+### 3. What is  the general concept of short circuiting?  This quetion has a short and simple answer.
+
+You can bypass the right operand if the left side is false with &&.  If the left side is true with ||, then you can bypass the right.
+
+### 4.  What are the difference in how short circuting works for && and ||?
+
+You can bypass the right operand if the left side is false with &&.  If the left side is true with ||, then you can bypass the right.
+
+### 5. Look at the list of operators.  What operator has the highest precendence?  Which has the lowest?
+
+() has the highest.  = has the lowest.
+
+### 6.  In an if or else construction using multiple lines of code, what effect does the use of curly braces have?
+
+Allows you to run multiple statements within the braces block, if the expression is true inside the IF block. And vice versa for the else block.
+
+### 7. In a switch statement, what happens if you omit break?
+
+Every case would be evaluted as a single case, which would generate an error.
+
+### 8. The four keywrods in a switch statement are *switch, case, break and default*.  Explain what each keyword does.
+
+Switch declares that a switch statement is about to be used.  Case generates a expression that will evaluate to true or false.  Break ends each case.  default Sets a value if none of the cases evaluate to true.
+
+### 9. Look at the source listing below.  It contains two methods: recurr1() and recur2().  There is a significant difference.  What is it?
+
+Recurr2 returns a tuple
+
+### 10. (Not in book) What is a recursive method.  Using language you know, write a recursive method that adds up the integers in a list of integers.  The input to the method is a list of integers and the output is a scalar value representing a sum.
+
+A method that calls on itself with its method body.  I have an empty jar.  I want to fill the jar with gumballs.  My method is place a gumball inside the jar.  I want a total of 20 gumballs.
+I keep executing place a gumball, which is adding one gumball at a time, until my total gumballs adds to 20.
+
+### 11. (Not in book) Read a short summary of De morgan's laws.
+	a. Explain how this statement, "It's not snowing or raining," is the same as this statement, " It's not snowing and it's not raining."
+	
+	This is an example of an and statement.  If the left is evaluated to false then the right is ignored.
+	
+	
+	a. Explain how this statement, "I'm not running and walking," is the same as, " I'm not running and I'm not walking."
+	
+	This is an or statement.  

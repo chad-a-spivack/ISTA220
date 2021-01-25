@@ -1,0 +1,78 @@
+# C# Chapter 3 Homework
+## Chad Spivack
+## January 20, 2021
+
+### 1. What is a method?
+
+A named sequence of statements.  Named block of code that optionally accepts input and returns output.
+
+### 2. What is the difference between a function and a procedure/subprocedure/subroutine?
+
+A function is used to calculate a result whereas a procedure is used to perform certain tasks in order.
+
+### 3. What does a return statement do?
+
+Returns information that is the same as the return type as long as the type is not *void*.
+
+### 4. What is an expression bodied statement do?
+
+Uses the "=>" operator to reference the body of a method and does not require a return statement.  It simplifies the expression.
+
+### 5. What is the scope of a variable?
+
+It defines where the variable can be accessed.  If the variable is within a method, it is considered to be in scope.
+
+### 6. What is a field?
+
+A variable defined by a class.
+
+### 7. What is an overloaded method?
+
+Two identifiers declared within the same scope that have the same name.  More than 1 methods with the same name.  You tell them apart from the parameter list.
+
+### 8. How do you call a method that requires arguments?
+
+Using comma separated list of arguments inside the parantheses of the method, and the number and type of the arguments are used to determine which overloaded method to use.
+
+### 9. How do you write a method, that is, specify the method definition, that requires a parameter list?
+
+ You specify the type of the method. Name the method. Parameter list. Body of the method.
+
+### 10. How do you specify a parameter as optional when defining a method?
+
+Declare a default value for the variable at the end of the parameter list.
+
+### 11. How do you pass an argument to a method as a named parameter?
+
+Call the method, and then input the the values for each parameter.
+
+### 12.  How do you return values from a method?  Can you return multiple values from a method, and if so, how?
+
+Have a return statement in your method body.  Yes, just add additional return values.
+
+### 13. What is a tuple? How do you define a method that returns multiple values? Give an example of a method that returns multiple values other the example in the book.
+
+A tuple is a small collection of values.  Specify a list of types as part of the definition; one type for each value returned.
+
+```
+	myMethod()
+	{
+		int int1;
+		int int2;
+		return (int1, int2);
+	}
+```
+
+### 14.  Examine the method definition on page 83.  Desk check the execution.  What do you discover?  This is called recursion.
+
+dataValue changes as the method runs because of the IF ElSE statement until dataValue = 1. 
+
+### 15.  How does the compiler resolve an ambiguity between named arguments and optional parameters?
+
+If a named argument deosn't match the parameter type, the compiler will default to the default value.
+
+### 16.  The book states " A key feature of C# abd ither languages designed for the .NET Framewrok is the ability to interoperate with application and ompenents wrriten
+with other technologies." What is the COM and how is the CLR dependent on the COM?
+
+COM is the component object model. The CLR is dependent on the COM because it allows for optional arguments.
+
