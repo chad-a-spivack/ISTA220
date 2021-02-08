@@ -1,0 +1,51 @@
+# C# Homework Chapter 8
+## Chad Spivack
+## February 3, 2021
+
+### 1. What is the difference between deep copy and shallow copy?
+
+Deep copy copies reference to fields, or you follow the pointer to the heap.  Shallow just copies what is on the stack.
+
+### 2. What is the value of a reference after you declare and initialize it?
+
+whatever the value you initialized it to.
+
+### 3. How do you declare a value type?
+
+int a = 0 for example.
+
+### 4. How do you declare a reference type?
+
+circle c = new circle();
+
+### 5. Does C# allow you to assign NULL to a value type?
+
+No, but with a ? next to data type you can.
+
+### 6. Can you assign a nullable value type to a non-nullable variable of the same type? Why or why not?
+
+no.  one value might contain null whereas the other may not.
+
+### 7. What is the difference between the stack and the heap?
+
+Stack memory is organized.  Heap is disorganized. Stack stores values directly.  Heap stores references.
+
+### 8. What does it mean when we say that all classes are specialized types?
+
+Every class is a type.  Rthe integer type is a class, the double type is a class.  It is a way of organizing the program.
+
+### 9. What does ref do?
+
+Passes a reference to the actual argument rather than the copy. The memory address, not the value.
+
+### 10. What does out do?
+
+It allows a method itself to initialize a parameter.
+
+### 11. Describe boxing and unboxing in your own words.
+
+Boxing creates an instance of memory on the heap that assigns it a reference value.  Unboxing is casting the boxed variable to the other reference variable.
+
+### 12. What does cast do?
+
+Obtains a value of the boxed copy.

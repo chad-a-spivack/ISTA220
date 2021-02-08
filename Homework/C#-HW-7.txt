@@ -1,0 +1,57 @@
+# C# Homework Chapter 7
+## Chad Spivack
+## February 2, 2021
+
+### 1. What is a class? According to the book, what does a class “arrange?”
+
+short for a classification. A class is a type.  It arranges information and behavior into  a meaningful entity.
+
+### 2. What are the two purposes of encapsulatiohn?
+
+Combine methods and data within a class and control accessibility of the methods and data.
+
+### 3. How do you instantiate an instance of a class? How do you access that instance?
+
+class variable name = new class();
+
+### 4. What is the default access of the fields and methods of a class? How do you change the default?
+
+Private.  You change the access modifier.
+
+### 5. What is the syntax for writing a constructor?
+
+access modifier class name ()
+{
+	body
+	} with no return type.
+
+### 6. What is the difference between class fields and methods, and instance fields ad methods? How do you
+create class fields and methods?
+
+Variables inside a class are called fields. Methods define how a an object of a class behaves.  Class methods bleong to all objects of that class.
+Use the static method to create them. Instance methods only belong to the instance, not shared.
+
+### 7. How do you bring a static class in scope? Why would you want to bring a static class in scope?
+
+Just use the name of the class if it is static.  To avoid creating objects to use the class.  They can be used in any class.
+
+### 8. Can you think of a good reason to create an anonymous class? What is it?
+
+A class without a name. If you don't know the type a certain class is suppoosed to be.
+
+### 9. What is polymorphism as this term is used in computer science? This is not in the book.
+
+The ability to interpret objects in different ways based on their class or data type.
+
+### 10. What is message passing as this term is used in computer science? This is not in the book.
+
+How objects communicate with one another.  Caller tells call method to do something but doesn't care how it does it.
+
+### 11. What was the first object-oriented programming language?
+
+Simula
+
+### 12. Who is Alexander Stephanov? What do you think about this quote?
+
+
+Created C++.  Everything is an object in one way or another.
