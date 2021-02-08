@@ -1,0 +1,63 @@
+octal allows 8 digits, which are 
+0, 1, 2, 3, 4, 5, 6, 7 ( there is no 8)
+How do you convert a decimal number (a base 10) inta an octal (base 8) number?
+first step is modulus
+second step is division (integer division)
+termination condition is when division operation returns 0
+15_10 == 17_8
+
+15 % 8 = 7
+15 / 8 = 1
+
+1 % 8 = 1
+1 / 8 = 0
+
+17
+
+----------------------------------------------------------------
+
+75_10 == 113_8
+
+75 % 8 = 3
+75 / 8 = 9
+
+9 % 8 = 1
+9 / 8 = 1
+
+1%8 = 1
+1 / 8 = 0
+
+113
+
+----------------------------------------------------------------------
+
+23_10 == 27_8
+
+23 % 8 = 7
+23 / 8 = 2
+
+2 % 8 = 2
+2 / 8 = 0
+
+27
+
+-----------------------------------------------------------------
+
+
+
+Coverting octal to a decimal
+
+1      3       5
+                | 1's place (8^0)
+		| 8's place (8^1)
+|64's (8^2)
+
+
+
+32
+
+1 * 2 = 2 
+8 * 3 = 24
+64
+512
+= 26
