@@ -1,0 +1,48 @@
+# C# Homework 10
+## Chad Spivack
+## February 10, 2021
+
+### 1. What does an array look like in memory?
+
+A contiguous block all of the same type and are accessed by using an index
+
+### 2. Where is memory allocated to hold an array, on the stack or on the heap?
+
+On the heap. They are reference types.
+
+### 3. Where is memory allocated to hold an array reference, on the stack or on the heap?
+
+on the stack
+
+### 4. Can an array hold values of different types? This is a trick question, the answer is, “It depends.” What
+determines the types that an array can hold?
+
+no, they have to be the same value. You can create an array that holds reference types to other arrays.
+
+### 5. Describe the syntax of the condition for a foreach loop.
+
+declares an iteration variable for the the referenced array.
+
+### 6. How do you make a deep copy of a array?
+
+Create a new array instance and then copy each element into the new array.
+
+### 7. What is the difference in the syntax between a multi-dimensional array and an array of arrays?
+
+multi = [,].  array of arrays = [][]
+
+### 8. What is the difference in the uses for a multi-dimensional array and an array of arrays? In other words,
+what determines whether you would use one as opposed to the other?
+
+if you need to use a lot of data constantly than use a multi.  If you do not to allocate the amount of memory used for a multi, than a jagged is your answer.
+
+### 9. How do you flatten a multidimensional array?
+
+Create a jagged array for the multidimensional array.
+
+### 10. (Thought question) When we use a for loop, we can change the values of the array elements inside
+the loop. When we use a foreach loop, we cannot change the values of the arry elements inside the
+loop. Why not? How is for different from foreach?
+
+In foreach, you are dereferencing the elements so there is no way to change the index number.
+

@@ -1,0 +1,67 @@
+# C# Homework Chapter 9
+## Chad Spivack
+## February 9, 2021
+
+### 1. What is an enum?
+
+Lives on the stack. Values are limited to a set of symbolic names.
+
+### 2. Declare an enum for military ranks, either officer or enlisted. Name it Ranks. What are the symbols,
+like Private, Corporal, Sergeant or Lieutenant, Captain, Major?
+
+enum Ranks {private, private first class, specialist, sergeant, etc..}
+
+### 3. Using the Ranks enum, assign a rank to yourself and a friend.
+
+Ranks Chad = Ranks.SSG;
+Ranks Will = Ranks.CPT;
+
+### 4. Determine the numeric index of particular ranks, using the Ranks enum.
+
+
+0 = private, 1 = PFC, 2 = specialist, 3 = sergeant etc.
+
+
+### 5. How do you select the type of an enum?
+
+enum ranks : short {private, pFC, etc.}
+
+### 6. What is a struct?
+
+value type that can have its own methods and fields.
+
+### 7. List some differences between classes and structs.
+
+You can't declare a default constructor of a struct. You cannot initialize instance fields at their point of declartion.
+
+### 8. Are structs stored on the stack or on the heap? What about enums?
+
+stack.  enums are on the stack as well.
+
+### 9. Review the documentation for the C# System.Int32 struct. List the fields. List the methods.
+
+MaxValue and MinValue are the fields. CompareTO, Equals, GetHashCode,GetTypeCode, Parse, ToString, TryFormat, TryParse are the methods.
+
+### 10. Declare a struct named DOD with four branches.
+
+Struct DOD
+{
+	private string Army, Navy, Marines, Air Force;
+	
+	public DOD(string army, string navy, string, marines, string Air_force)
+	{
+		Army = army;
+		Navy = navy;
+		Marines = marines;
+		Air_Force = Air_force;
+	}
+}
+
+### 11. Why can’t you create a default constructor for a struct?
+
+The compiler always generates one for structs.
+
+
+### 12. What is CIL? What does the CLR do to the CIL?
+
+Common Intermediate Language. Turns souce code into machine code. 
